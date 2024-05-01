@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    // Emit Configuration
+    "noEmit": true,
+
+    // Type Checking Configuration
+    // Strict Rules - v4.8
+    "alwaysStrict": false,
+    "strictBindCallApply": false,
+    "strictFunctionTypes": false,
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "useUnknownInCatchVariables": true,
+    
+    // Modules Configuration
+    "baseUrl": "./",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    
+    // Language and Environment Configuration
+    "target": "ES2022",
+    "jsx": "react",
+
+    // JavaScript Support Configuration
+    "allowJs": true,
+    "checkJs": true,
+
+    // Interop Constraints Configuration
+    "esModuleInterop": true,
+    "isolatedModules": true
+  },
+  "include": ["src/**/**/*"],
+  "exclude": ["node_modules"]
+}
